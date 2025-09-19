@@ -1,4 +1,13 @@
 
+const btnMenu =document.getElementById("btnMenu");
+const menu=document.getElementById('menu');
+
+btnMenu.addEventListener('click', ()=>{
+  
+    menu.classList.toggle("hidden");
+})
+
+
 
 window.addEventListener('scroll', function() {
   const navbar = document.getElementById('navbar');

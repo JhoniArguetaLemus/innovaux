@@ -21,10 +21,15 @@
     <nav class=" text-white p-4" id="navbar">
         <div class="max-w-6xl mx-auto flex justify-between items-center">
             <a href="#" class="text-2xl font-semibold">InnovaUX</a>
-            <ul class="flex space-x-6">
-                <li><a href="#servicios" class="hover:text-blue-200 cursor-pointer">Servicios</a></li>
-                <li><a href="#testimonios" class="hover:text-blue-200">Testimonios</a></li>
-                <li><a href="#contacto" class="hover:text-blue-200">Contacto</a></li>
+
+            <button id="btnMenu" class="md:hidden bg-white border-white p-[0.5rem] rounded-lg">
+                <img src="images/menu.png" alt="" width="30">
+            </button>
+
+            <ul id="menu" class="flex hidden md:block md:flex  bg-black/50 md:bg-transparent md:w-auto md:static    flex-col md:flex-row  absolute top-[4.8rem] right-0  w-[50%] md:w-auto h-screen md:h-auto items-center gap-10">
+                <li><a href="#servicios" class="hover:text-blue-200 cursor-pointer ">Servicios</a></li>
+                <li><a href="#testimonios" class="hover:text-blue-200 cursor-pointer">Testimonios</a></li>
+                <li><a href="#contacto" class="hover:text-blue-200 cursor-pointer">Contacto</a></li>
             </ul>
         </div>
     </nav>
@@ -64,7 +69,7 @@
     <!--galeria de proyectos-->
     <section id="proyectos" class="mb-[4rem]">
         <h2 class="text-center text-3xl font-semibold  mb-[0.5rem] mt-[4rem]">Nuestros proyectos</h2>
-        <h3 class=" text-center mb-[3rem] text-2xl">Algunos de nuestros diseños más impactantes</h3>
+        <h3 class="font-semibold text-center mb-[3rem] text-2xl">Algunos de nuestros diseños más impactantes</h3>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 w-[95%] mx-auto">
 
